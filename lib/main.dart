@@ -2,7 +2,8 @@
 // import 'package:basic_flutter/layouts/row.dart';
 // import 'package:basic_flutter/components/text.dart';
 // import 'package:basic_flutter/components/textfield.dart';
-import 'package:basic_flutter/components/button.dart';
+// import 'package:basic_flutter/components/button.dart';
+import 'package:basic_flutter/components/image.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       home: Scaffold(
-        body: ButtonWidget() 
+        body: ImageWidget() 
+        // ButtonWidget() 
         // TextFieldWidget() 
         // TextWidget() 
         // RowWidget()
