@@ -15,12 +15,22 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       home: Scaffold(
-        body: ImageWidget() 
-        // ButtonWidget() 
-        // TextFieldWidget() 
-        // TextWidget() 
+        appBar: AppBar(
+          title: Text('Mi primera app Flutter'),
+          actions: [IconButton(onPressed: () {}, icon: Icon(Icons.settings))],
+          backgroundColor: Colors.amberAccent,
+        ),
+        backgroundColor: Colors.amber,
+        body: ImageWidget(),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: Icon(Icons.add),
+        ),
+        // ButtonWidget()
+        // TextFieldWidget()
+        // TextWidget()
         // RowWidget()
         // ColumnWidget()
       ),
